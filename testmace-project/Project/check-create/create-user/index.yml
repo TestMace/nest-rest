@@ -1,0 +1,28 @@
+children: []
+variables: {}
+type: RequestStep
+assignVariables:
+  - assign:
+      type: reference
+      refNodePath: Project/check-create
+    path: body.id
+    variable: userId
+requestData:
+  request:
+    method: POST
+    url: 'localhost:3000/users'
+  headers: []
+  disabledInheritedHeaders: []
+  params: []
+  body:
+    type: Json
+    jsonBody: '{"email": "user@user.com", "displayName": "New user", "username": "user"}'
+    xmlBody: ''
+    textBody: ''
+    formData: []
+    file: ''
+    formURLEncoded: []
+  strictSSL: Inherit
+authData:
+  type: inherit
+name: create-user

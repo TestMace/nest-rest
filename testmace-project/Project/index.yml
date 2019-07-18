@@ -1,0 +1,19 @@
+type: Project
+name: Project
+environments:
+  active: null
+  environments: {}
+children:
+  - get-users
+  - check-create
+variables: {}
+authData:
+  type: inherit
+settings:
+  proxy:
+    enable: false
+requestData:
+  headers: []
+  disabledInheritedHeaders: []
+  strictSSL: 'No'
+cookies: []

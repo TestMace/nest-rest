@@ -1,0 +1,166 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/dmitrii/projects/nest-rest/docker
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 109
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 33
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  # fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  fontFamily: "Meslo for Powerline, Meslo LG M for Powerline"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 914
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                            \r \r\e]2;dmitrii@dmitrii-HP-ZBook-17-G3: ~/projects/nest-rest/docker\a\e]1;..t-rest/docker\a"
+  - delay: 8
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[37mdmitrii@dmitrii-HP-ZBook-17-G3:~/projects/nest-rest/docker \e[01;34mgit:(master*)\e[01;37m$ \e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 779
+    content: d
+  - delay: 143
+    content: "\bdo"
+  - delay: 192
+    content: c
+  - delay: 512
+    content: k
+  - delay: 119
+    content: e
+  - delay: 49
+    content: r
+  - delay: 496
+    content: '-'
+  - delay: 336
+    content: c
+  - delay: 160
+    content: o
+  - delay: 32
+    content: m
+  - delay: 128
+    content: "pose\e[1m \e[0m"
+  - delay: 1136
+    content: "\b\e[0m u"
+  - delay: 88
+    content: p
+  - delay: 304
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;docker-compose up\a\e]1;docker-compose\a"
+  - delay: 428
+    content: "Starting docker_adminer_1_2243b328ee20 ... \r\r\nStarting docker_db_1_f7d240ce00ef      ... \r\r\n"
+  - delay: 1336
+    content: "\e[1A\e[2K\rStarting docker_db_1_f7d240ce00ef      ... \e[32mdone\e[0m\r\e[1B"
+  - delay: 930
+    content: "\e[2A\e[2K\rStarting docker_adminer_1_2243b328ee20 ... \e[32mdone\e[0m\r\e[2BAttaching to docker_db_1_f7d240ce00ef, docker_adminer_1_2243b328ee20\r\n\e[36mdb_1_f7d240ce00ef |\e[0m 2019-07-17 16:19:49.695 UTC [1] LOG:  listening on IPv4 address \"0.0.0.0\", port 5432\r\n\e[36mdb_1_f7d240ce00ef |\e[0m 2019-07-17 16:19:49.695 UTC [1] LOG:  listening on IPv6 address \"::\", port 5432\r\n\e[36mdb_1_f7d240ce00ef |\e[0m 2019-07-17 16:19:49.709 UTC [1] LOG:  listening on Unix socket \"/var/run/postgresql/.s.PGSQL.5432\"\r\n\e[36mdb_1_f7d240ce00ef |\e[0m 2019-07-17 16:19:49.745 UTC [24] LOG:  database system was shut down at 2019-07-17 16:18:37 UTC\r\n\e[33madminer_1_2243b328ee20 |\e[0m PHP 7.3.3 Development Server started at Wed Jul 17 16:19:50 2019\r\n\e[36mdb_1_f7d240ce00ef |\e[0m 2019-07-17 16:19:49.753 UTC [1] LOG:  database system is ready to accept connections\r\n"
+  - delay: 10631
+    content: "^CGracefully stopping... (press Ctrl+C again to force)\r\n"
+  - delay: 8
+    content: "Stopping docker_db_1_f7d240ce00ef      ... \r\r\nStopping docker_adminer_1_2243b328ee20 ... \r\r\n"
+  - delay: 601
+    content: "\e[1A\e[2K\rStopping docker_adminer_1_2243b328ee20 ... \e[32mdone\e[0m\r\e[1B"
+  - delay: 39
+    content: "\e[2A\e[2K\rStopping docker_db_1_f7d240ce00ef      ... \e[32mdone\e[0m\r\e[2B"
+  - delay: 30
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                            \r \r\e]2;dmitrii@dmitrii-HP-ZBook-17-G3: ~/projects/nest-rest/docker\a\e]1;..t-rest/docker\a"
+  - delay: 7
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[37mdmitrii@dmitrii-HP-ZBook-17-G3:~/projects/nest-rest/docker \e[01;34mgit:(master*)\e[01;37m$ \e[00m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 4010
+    content: "\e[?2004l\r\r\n"

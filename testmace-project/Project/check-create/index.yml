@@ -1,0 +1,13 @@
+children:
+  - create-user
+  - check-if-exists
+  - delete-user
+variables: {}
+type: Folder
+authData:
+  type: inherit
+requestData:
+  headers: []
+  disabledInheritedHeaders: []
+  strictSSL: Inherit
+name: check-create

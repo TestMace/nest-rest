@@ -1,0 +1,23 @@
+children: []
+variables: {}
+type: RequestStep
+assignVariables: []
+requestData:
+  request:
+    method: DELETE
+    url: 'localhost:3000/users/${$dynamicVar.userId}'
+  headers: []
+  disabledInheritedHeaders: []
+  params: []
+  body:
+    type: Json
+    jsonBody: ''
+    xmlBody: ''
+    textBody: ''
+    formData: []
+    file: ''
+    formURLEncoded: []
+  strictSSL: Inherit
+authData:
+  type: inherit
+name: delete-user
